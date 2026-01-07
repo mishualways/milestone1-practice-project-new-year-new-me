@@ -14,10 +14,11 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
-.btn {
+.btn,
+.button {
     background-color: #F15B22;
     color: #FFFFFF;
     font-size: 20px;
@@ -28,6 +29,19 @@ body {
     border-radius: 5px;
     width: fit-content;
     transition: 03s;
+}
+
+.button {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    transition: 03s;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+    transition: 03s;
+    border: 2px solid white;
 }
 
 .btn:hover {
@@ -186,13 +200,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 5px;
 }
-
-
 
 .mindset {
     padding-top: 130px;
-    padding-bottom: 130px;
 }
 
 .mindset-container h4 {
@@ -201,15 +213,74 @@ body {
     margin-bottom: 34px;
 }
 
-.mindset-container a {
+/* mmindset section end */
+
+/* footer section start */
+footer {
+    background-color: #151414;
+    margin-top: 130px;
+    padding: 130px 0px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container .content h4 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #F8F8F8;
+}
+
+.footer-container .content p{
+    max-width: 485px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.footer-container .content a {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.footer-container .content .social a {
+    margin-top: 16px;
+    display: inline-block;
+    padding-right: 17px;
+}
+.footer-container .subscribe p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 31px;
+    color: #FFFFFF;
+}
+.footer-container .subscribe input{
+    display: block;
+}
+.footer-container .subscribe input[type="email"]{
+    width: 325px;
+    padding: 20px 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;background-color: transparent;
+    margin-bottom: 16px;
+}
+.footer-container .subscribe input[type="email"]::placeholder{
+    color: #FFFFFF;
+}
+
+
+
+/* .footer-container .subscribe .button{
     background-color: #FFFFFF;
     color: #F15B22;
     transition: 03s;
-}
+    padding: 20px 36px;
+} */
 
-.mindset-container a:hover {
-    color: #FFFFFF;
-    background-color: transparent;
-    transition: 03s;
-    border: 2px solid white;
-}
+
+/* footer section end */
