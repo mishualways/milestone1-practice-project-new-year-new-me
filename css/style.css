@@ -14,6 +14,7 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 20px;
+    border: 2px solid red;
 }
 
 .btn {
@@ -26,6 +27,14 @@ body {
     padding: 21px 26px;
     border-radius: 5px;
     width: fit-content;
+    transition: 03s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #F15B22;
+    border: 2px solid #F15B22;
 }
 
 /* main style */
@@ -78,7 +87,6 @@ body {
 }
 
 .my-failures-container {
-    border: 1px solid red;
     display: flex;
     gap: 95px;
     justify-content: center;
@@ -88,16 +96,15 @@ body {
 .my-failures-image img {
     width: 100%;
     max-width: 569px;
-    border: 1px solid red;
 }
 
 .my-failures-content {
     max-width: 416px;
-    border: 1px solid red;
-
 }
 
-.my-failures-content h4 {
+.my-failures-content h4,
+.my-plans h4,
+.mindset-container h4 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -120,4 +127,89 @@ body {
 
 .my-failures-content ul li:last-child {
     margin-bottom: 0px;
+}
+
+/* myfailures section end */
+
+/* my plans section start */
+.my-plans h4 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-plans {
+    padding-top: 130px;
+}
+
+.my-plan-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.my-plan-container .my-plan-card {
+    text-align: center;
+}
+
+.my-plan-container .my-plan-card img {
+    max-width: 923px;
+    margin-bottom: 24px;
+
+}
+
+.my-plan-container .my-plan-card h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.my-plan-container .my-plan-card p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* my plans section end */
+
+/* mmindset section start */
+.mindset-container {
+    padding: 60px 64px;
+    background:
+        linear-gradient(to right,
+            rgba(255, 106, 42, 0.8),
+            rgba(248, 92, 31, 0.7),
+            rgba(239, 78, 21, 0.8),
+            rgba(226, 68, 15, 0)),
+        url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.mindset {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.mindset-container h4 {
+    color: white;
+    max-width: 560px;
+    margin-bottom: 34px;
+}
+
+.mindset-container a {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    transition: 03s;
+}
+
+.mindset-container a:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+    transition: 03s;
+    border: 2px solid white;
 }
