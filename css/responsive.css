@@ -1,0 +1,58 @@
+@media screen and (max-width: 1000px) {
+    .hero {
+        background: none !important;
+        background-color: #EEEEEE;
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding-top: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .my-failures-container {
+        display: flex;
+        gap: 40px;
+    }
+
+    .my-failures-image {
+        width: 50%;
+    }
+
+    .my-failures-content {
+        width: 50%;
+    }
+
+    .my-failures-content h4 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .hero .hero-content h1 {
+        font-size: 32px;
+    }
+
+
+
+    .my-failures-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .my-failures-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .my-failures-content h4 {
+        font-size: 30px;
+    }
+
+    .my-failures-content ul li {
+        font-size: 16px;
+        text-align: left;
+    }
+}

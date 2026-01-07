@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/*shared style */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.btn {
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+    padding: 21px 26px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+/* main style */
+
+/* header section start */
+.hero {
+
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* chatgpt sejetion */
+    min-height: 100vh;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: right;
+}
+
+.hero-content {
+    text-align: right;
+    max-width: 525px;
+    margin: 216px 0px;
+
+}
+
+.hero-content h1 {
+    color: #151414;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero-content p {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* header section close */
+
+/* main section start */
+
+/* myfailures section start */
+.my-failures {
+    padding-top: 131px;
+}
+
+.my-failures-container {
+    border: 1px solid red;
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-failures-image img {
+    width: 100%;
+    max-width: 569px;
+    border: 1px solid red;
+}
+
+.my-failures-content {
+    max-width: 416px;
+    border: 1px solid red;
+
+}
+
+.my-failures-content h4 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.my-failures-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.my-failures-content ul li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.my-failures-content ul li:last-child {
+    margin-bottom: 0px;
+}
